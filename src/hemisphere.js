@@ -6,7 +6,7 @@ import north from './Image/north.jpg'
 
 
     const Hemisphere= ({latitude})=>{
-        const hemisphere= latitude>0?'current Location: Northern Hemisphere !!' : 'You are currently in : Southern Hemisphere !!'
+        const hemisphere= latitude>0?'Northern Hemisphere' : 'Southern Hemisphere'
         const picture = latitude>0 ? north : south
         if(picture=== north){
              return(
